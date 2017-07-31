@@ -1,0 +1,33 @@
+model,top_1_validation_accuracy,explained_variance_var_6,which_layer,kind
+alexnet,57.1,0.467711091259,pool5,average
+mobilenet,70.7,0.4802697693,block12,average
+vgg16,71.5,0.437744514219,pool4,average
+resnet50,75.3,0.482356954,block15,average
+xception,79,0.438902408,block13,average
+inception v1,69.8,0.436588837804,block4,average
+incepiton v2,73.9,0.46724732483,block9,average
+inception v3,78.0,0.448937241561,block11,average
+incepiton v4,80.2,0.441245153602,block11,average
+inception resnet v2,80.4,0.465101091021,block4,average
+
+alexnet,57.1,0.473929596048,pool5,100ms
+mobilenet,70.7,0.435499060751,block12,100ms
+vgg16,71.5,0.426578327415,pool4,100ms
+resnet50,75.3,0.451920504926,block14,100ms
+xception,79,0.42383697679,block8,100ms
+inception v1,69.8,0.439483083849,block4,100ms
+incepiton v2,73.9,0.43101200358,block5,100ms
+inception v3,78.0,0.427220170836,block7,100ms
+incepiton v4,80.2,0.408476106063,block11,100ms
+inception resnet v2,80.4,0.415201907837,block4,100ms
+
+alexnet,57.1,0.303589928512,pool5,200ms
+mobilenet,70.7,0.353109997357,block12,200ms
+vgg16,71.5,0.318376885427,pool5,200ms
+resnet50,75.3,0.367459413034,block15,200ms
+xception,79,0.338618061567,block13,200ms
+inception v1,69.8,0.331435603008,block9,200ms
+incepiton v2,73.9,0.355736370226,block9,200ms
+inception v3,78.0,0.349479625826,block10,200ms
+incepiton v4,80.2,0.329300792195,block16,200ms
+inception resnet v2,80.4,0.367316658397,block4,200ms
